@@ -3,7 +3,7 @@ var HomeController = require('./controllers/home');
 var userController = require('./controllers/user');
 var contactController = require('./controllers/contact');
 
-module.exports = function(app){
+module.exports = function(app) {
 	app.get('/', HomeController.index);
 	app.get('/contact', contactController.contactGet);
 	app.post('/contact', contactController.contactPost);

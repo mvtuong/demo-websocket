@@ -1,7 +1,6 @@
 'use strict';
 
 const logger = require('../logger.js');
-
 var mongoose = require('mongoose');
 
 module.exports = class {
